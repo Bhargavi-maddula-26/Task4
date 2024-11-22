@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Pacifico&family=Pirata+One&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/ima8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #333;
+  }
+
+  .Booking{
+    margin-left: 62%;
+    margin-bottom: 2%;
+    color: #e228dc;
+    margin-top: 3%;
+    font-family: "Bokor", serif;
+    font-size: 2.5rem;
+  }
+/* Booking Form Styles */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    margin-left: 60%;
+  }
+  
+  form h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit Button */
+  form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Center Align Submit Button */
+  form .naa {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+  }
+  
+  /* Focus Styles for Inputs and Selects */
+  form select,
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="date"] {
+    background-color: #f8f8f8;
+  }
+  
+  form select:focus,
+  form input[type="text"]:focus,
+  form input[type="number"]:focus,
+  form input[type="date"]:focus {
+    border-color: #4CAF50;
+    background-color: #e6f7e6;
+  }
+  
+  /* Confirmation Message */
+  .message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+  }
+  
+  #confirmationMessage {
+    display: none;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+      width: 90%;
+    }
+  }
+    

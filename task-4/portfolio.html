@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a University Student</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+                <img src="images/girl.jpg" alt="About Image" class="about-img">
+                    <div>
+                        <p class="self">Hello!My name is <span class="self-span">  Maddula Bhargavi</span>, and I'm a university student currently pursuing my Master's degree.</p>
+            
+                        <p >I created Explore World website to share my passion for exploring the world! 🌍 From breathtaking destinations to hidden gems, this platform is my way of celebrating the beauty, culture, and adventures our planet offers.</p>
+                    </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="skill-h">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="images/ima1.jpg" alt="HTML" class="skill-icon">
+            </div>
+            <div class="skill">
+                <img src="images/ima2.jpg" alt="CSS" class="skill-icon">
+            </div>
+            <div class="skill">
+                <img src="images/ima3.jpg" alt="JavaScript" class="skill-icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <ul class="web-ul">
+                     <h3 class="web-h">Web Development</h3>
+                    <li class="web-li"><a href="index.html" class="web-a">Explore the World 🌍 Website</a></li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3 class="cyber-h">Cyber Security</h3>
+                <p class="cyber-p">Domain and Email Analysis using OSINT Tools.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio | Designed by Me</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

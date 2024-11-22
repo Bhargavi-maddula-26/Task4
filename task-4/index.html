@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expolre World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore World</h1>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="to-do.html">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="shop" class="carousel-section">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="images/world9.jpg" alt="world img">
+                    <img src="images/World2.jpg" alt="world img">
+                    <img src="images/World5.jpg" alt="world img">
+                    <img src="images/World11.jpg" alt="world img">
+                    <img src="images/World8.jpg" alt="world img">
+                    <img src="images/World6.jpg" alt="world img">
+                </div>
+                <button id="prevBtn" class="carousel-btn prev-btn">Prev</button>
+                <button id="nextBtn" class="carousel-btn next-btn">Next</button>
+            </div>
+        </section>
+
+        <div class="container">
+            <h1 class="about-h">About Us</h1>
+            <p>Welcome to <span class="highlight">Explore World</span>! We are passionate adventurers, storytellers, and travel enthusiasts dedicated to bringing the wonders of the world closer to you. Whether you dream of scaling majestic peaks, strolling through vibrant cities, or discovering hidden gems off the beaten path, we are here to inspire and guide you.</p>
+            <p>At Explore World, our mission is to ignite your wanderlust and empower you to explore with confidence. We believe that travel has the power to connect people, foster understanding, and create unforgettable memories.</p>
+            <p>Our team curates experiences, travel guides, and tips tailored to all types of travelers. From solo explorers to family vacationers, we aim to provide resources that make your journeys unforgettable. Let’s explore the beauty, culture, and diversity of the world together!</p>
+        </div>
+
+        <section id="places" class="content-section">
+            <h2>Explore Beautiful Places</h2>
+            <div id="filters">
+                <label for="countryFilter">Filter by Country: </label>
+        <select id="countryFilter">
+            <option value="all">All</option>
+            <option value="India">India</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Australia">Australia</option>
+            <option value="Indonesia">Philippines</option>
+            
+        </select>
+        
+        <label for="sortPrice">Sort by Price: </label>
+        <select id="sortPrice">
+            <option value="all">Default</option>
+            <option value="low-to-high">Low to High</option>
+            <option value="high-to-low">High to Low</option>
+        </select>
+        
+        <label for="sortRating">Sort by Rating: </label>
+        <select id="sortRating">
+            <option value="all">Default</option>
+            <option value="low-to-high">Low to High</option>
+            <option value="high-to-low">High to Low</option>
+                </select>
+            </div>
+            <div id="place-list"></div>
+        </section>
+        
+        <footer>
+            <p class="footer-p">&copy; 2024 Explore World Website</p>
+        </footer>
+    
+        
+    <script src="script.js"></script>
+    </body>
+    </html>
+    
+
